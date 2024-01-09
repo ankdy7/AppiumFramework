@@ -36,6 +36,7 @@ public class ECommerceTest2 extends BaseTest {
 		double lastPageTotal = Double.parseDouble(driver.findElement(By.id("com.androidsample.generalstore:id/totalAmountLbl"))
 				.getText().substring(2,driver.findElement(By.id("com.androidsample.generalstore:id/totalAmountLbl")).getText().length()-1));
 		Assert.assertEquals(lastPageTotal, sum);
+		//testgit1
 
 	}
 }
