@@ -43,7 +43,7 @@ public class BaseTest {
 
 		options.setApp(
 	//			"C:\\Users\\Dank\\Downloads\\eclipse-workspace-20240102T221256Z-001\\eclipse-workspace\\AppiumTest\\src\\test\\java\\Resources\\ApiDemos-debug.apk");
-	"C:\\Users\\Dank\\Downloads\\eclipse-workspace-20240102T221256Z-001\\eclipse-workspace\\AppiumTest\\src\\test\\java\\Resources\\General-Store.apk");
+	"C:\\Users\\Dank\\git\\AppiumFramework\\AppiumFramework\\src\\test\\java\\Resources\\General-Store.apk");
 		driver = new AndroidDriver(url, options);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
