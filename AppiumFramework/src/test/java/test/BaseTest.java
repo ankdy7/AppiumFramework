@@ -40,6 +40,7 @@ public class BaseTest {
 		// driver responsible for automation
 		UiAutomator2Options options = new UiAutomator2Options();
 		options.setDeviceName("DankPhone");
+		options.setChromedriverExecutable("C:\\Users\\Dank\\git\\AppiumFramework\\AppiumFramework\\src\\test\\java\\Resources\\chromedriver.exe");
 
 		options.setApp(
 	//			"C:\\Users\\Dank\\Downloads\\eclipse-workspace-20240102T221256Z-001\\eclipse-workspace\\AppiumTest\\src\\test\\java\\Resources\\ApiDemos-debug.apk");

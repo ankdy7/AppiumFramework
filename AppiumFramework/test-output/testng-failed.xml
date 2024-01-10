@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.ECommerceTest2">
+      <class name="test.MobileBrowserTest">
         <methods>
-          <include name="fillForm"/>
+          <include name="browserTest"/>
           <include name="configureAppium"/>
         </methods>
-      </class> <!-- test.ECommerceTest2 -->
+      </class> <!-- test.MobileBrowserTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
